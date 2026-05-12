@@ -6,7 +6,7 @@ async function getBalanceUsingWeb3(address: PublicKey): Promise<number> {
   return balance;
 }
 
-const address = new PublicKey("Bish4jTY4RwW88W4QAKPcmhV9sXifGDKEBpDpQfUGTjx");
+const address = new PublicKey("YOUR_PUBLIC_KEY_HERE"); // Replace with your actual public key
 getBalanceUsingWeb3(address)
 .then(balance => {
     console.log(`Balance: ${balance} lamports`);

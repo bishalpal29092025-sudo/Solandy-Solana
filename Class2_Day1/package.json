@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4"
+  },
+  "name": "class2_day1",
+  "version": "1.0.0",
+  "description": "In this chapter, we will generate a custom Solana wallet address using the `solana-keygen grind` command.   A vanity address allows you to create a wallet address that starts with a specific prefix, making it easier to recognize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
