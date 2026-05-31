@@ -1,0 +1,19 @@
+# Rust build artifacts
+target/
+
+# Solana keypairs (keep private)
+*-keypair.json
+*.json
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment
+.env
