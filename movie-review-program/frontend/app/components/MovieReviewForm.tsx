@@ -99,8 +99,8 @@ export const MovieReviewForm = () => {
       setTitle("");
       setRating(1);
       setDescription("");
-    } catch (err: any) {
-      setErrorMsg(err.message || "Transaction failed");
+    } catch (err: unknown) {
+      setErrorMsg(err instanceof Error ? err.message : "Transaction failed");
       setStatus("error");
     }
   };
